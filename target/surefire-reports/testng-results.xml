@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bank Project" duration-ms="25301" started-at="2021-11-19T21:18:20 IST" finished-at="2021-11-19T21:18:45 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest with chrome" duration-ms="25301" started-at="2021-11-19T21:18:20 IST" finished-at="2021-11-19T21:18:45 IST">
+      <class name="com.bankproject.testCases.TC_addNewCustomer_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.bankproject.testCases.TC_addNewCustomer_001@20398b7c]" name="setUp" is-config="true" duration-ms="9244" started-at="2021-11-19T21:18:20 IST" finished-at="2021-11-19T21:18:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCust()[pri:0, instance:com.bankproject.testCases.TC_addNewCustomer_001@20398b7c]" name="addNewCust" duration-ms="15204" started-at="2021-11-19T21:18:29 IST" finished-at="2021-11-19T21:18:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bankproject.testCases.TC_addNewCustomer_001@20398b7c]" name="tearDown" is-config="true" duration-ms="651" started-at="2021-11-19T21:18:45 IST" finished-at="2021-11-19T21:18:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bankproject.testCases.TC_addNewCustomer_001 -->
+    </test> <!-- LoginTest with chrome -->
+  </suite> <!-- Bank Project -->
+</testng-results>

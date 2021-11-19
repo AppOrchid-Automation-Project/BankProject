@@ -1,0 +1,9 @@
+com\bankproject\testCases\Baseclass.class
+com\bankproject\Utilities\XLSXUtils.class
+com\bankproject\pageObjects\Loginpage.class
+com\bankproject\testCases\TC_addNewCustomer_001.class
+com\bankproject\pageObjects\Addnewcustomer.class
+com\bankproject\Utilities\Reporting.class
+com\bankproject\Utilities\Readconfig.class
+com\bankproject\testCases\Tc_loginPage_001.class
+com\bankproject\testCases\TC_loginpage_002.class
