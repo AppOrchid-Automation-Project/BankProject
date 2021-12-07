@@ -12,6 +12,7 @@ import com.bankproject.pageObjects.Loginpage;
 
 public class Tc_loginPage_001 extends Baseclass
 {
+	//If guru99 site cred are expired use link "http://demo.guru99.com/" we can recreate cred
 	Loginpage lp;
 	Addnewcustomer newcustomer;
 	@Test(priority = 1)
