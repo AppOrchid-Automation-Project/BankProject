@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Bank Project grid demo" verbose="1" thread-count="4">
 
-  <listeners>
+ <!-- <listeners>
     <listener class-name="com.bankproject.Utilities.Reporting"/>
-  </listeners>
+  </listeners> -->
   
   <!-- chrome browser -->
   <test name="LoginTest with chrome on grid">
