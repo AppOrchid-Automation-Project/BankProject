@@ -10,7 +10,8 @@
   <test name="LoginTest with chrome on grid">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.bankproject.testCases.Tc_loginPage_001"/>
+     <!--  <class name="com.bankproject.testCases.Tc_loginPage_001"/> -->
+     <class name="com.bankproject.testCases.Jenkins"/>
     </classes>
   </test> <!-- Test -->
   
