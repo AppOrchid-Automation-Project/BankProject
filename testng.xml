@@ -10,7 +10,7 @@
   <test name="LoginTest with chrome on grid">
   <parameter name="browser" value="chrome"/>
     <classes>
-     <class name="com.bankproject.testCases.AdavancedInteractions"/>
+    <class name="com.bankproject.testCases.AdavancedInteractions"/>
     </classes>
   </test> <!-- Test -->
   
