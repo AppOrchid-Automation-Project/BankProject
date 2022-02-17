@@ -57,6 +57,6 @@ public class AdavancedInteractions
    	  // String dest=(("user.dir")+"/Driver/Screenshots/test3chrome.png");
    	   
    	   FileUtils.copyFile(src,new File(System.getProperty("user.dir")+"/Screenshots/chrometest.jpg"));
-   	    System.out.println("Taken screenshot");
+   	    System.out.println("Screenshot is taken and store on the location");
      }
 }
