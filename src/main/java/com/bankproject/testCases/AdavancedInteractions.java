@@ -38,7 +38,8 @@ public class AdavancedInteractions
    	 //WebDriver driver=new ChromeDriver();
 	   
    	   driver.get("https://www.google.com");
-   	   System.out.println("website is hitted in chrome");
+   	   
+   	   System.out.println("website is hitted on chrome");
    	   
    	   driver.manage().window().maximize();
    	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -47,6 +48,7 @@ public class AdavancedInteractions
    	   Actions action= new Actions(driver);
    	   
    	   WebElement link=driver.findElement(By.linkText("Gmail"));
+   	 System.out.println("clicked on gmail link");
    	   
    	   action.contextClick(link).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).
    	   sendKeys(Keys.ENTER).build().perform();
