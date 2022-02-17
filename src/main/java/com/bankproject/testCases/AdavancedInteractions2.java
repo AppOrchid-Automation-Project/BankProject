@@ -18,19 +18,19 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
-public class AdavancedInteractions
+public class AdavancedInteractions2
 {  
 	@Test
      public void click() throws InterruptedException, IOException
      {
 	   DesiredCapabilities cap=null;
-	   cap=DesiredCapabilities.chrome();
-	   cap.setBrowserName("chrome");
+	   cap=DesiredCapabilities.firefox();
+	   cap.setBrowserName("firefox");
 	   cap.setPlatform(Platform.LINUX);
 	   
 	  // RemoteWebDriver driver=new RemoteWebDriver(new URL("http://172.31.10.239:4444/wd/hub"),cap);
-	   RemoteWebDriver driver=new RemoteWebDriver(new URL("http://52.66.250.187:4444/wd/hub"),cap);
-	   System.out.println("Remote webdriver is started for chrome");
+	   RemoteWebDriver driver=new RemoteWebDriver(new URL("http://65.0.176.142:4444/wd/hub"),cap);
+	   System.out.println("Remote webdriver is started in firefox");
 			   
 	  // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
 	   //To run on jenkins and windows server mechine
@@ -38,7 +38,7 @@ public class AdavancedInteractions
    	 //WebDriver driver=new ChromeDriver();
 	   
    	   driver.get("https://www.google.com");
-   	   System.out.println("website is hitted in chrome");
+   	   System.out.println("website is hitted in firefox");
    	   
    	   driver.manage().window().maximize();
    	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -52,9 +52,9 @@ public class AdavancedInteractions
    	   sendKeys(Keys.ENTER).build().perform();
    	   
    	   File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-   	  // String dest=(("user.dir")+"/Driver/Screenshots/test3chrome.png");
+   	   String dest=(("user.dir")+"/Driver/Screenshots/test4firefox.png");
    	   
-   	   FileUtils.copyFile(src,new File(System.getProperty("user.dir")+"/Screenshots/chrometest.jpg"));
+   	   FileUtils.copyFile(src,new File(System.getProperty("user.dir")+"/Screenshots/test1.jpg"));
    	    System.out.println("Taken screenshot");
      }
 }
