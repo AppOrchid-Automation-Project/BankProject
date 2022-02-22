@@ -38,7 +38,7 @@ public class AdavancedInteractions2
    	 //WebDriver driver=new ChromeDriver();
 	   
    	   driver.get("https://www.google.com");
-   	   System.out.println("website is hitted in firefox");
+   	   System.out.println("website is hitted in firefox browser");
    	   
    	   driver.manage().window().maximize();
    	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -39,7 +39,7 @@ public class AdavancedInteractions
 	   
    	   driver.get("https://www.google.com");
    	   
-   	   System.out.println("website is hitted on chrome");
+   	   System.out.println("website is hitted on chrome browser");
    	   
    	   driver.manage().window().maximize();
    	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
