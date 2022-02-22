@@ -18,7 +18,7 @@
  <test name="LoginTest with firefox on grid">
  <parameter name="browser" value="firefox"/>
    <classes>
-  <!-- <class name="com.bankproject.testCases.AdavancedInteractions2"/> -->
+   <class name="com.bankproject.testCases.AdavancedInteractions2"/>
     </classes>
   </test>
   

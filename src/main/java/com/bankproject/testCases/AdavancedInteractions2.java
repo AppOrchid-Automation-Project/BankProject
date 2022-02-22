@@ -29,7 +29,7 @@ public class AdavancedInteractions2
 	   cap.setPlatform(Platform.LINUX);
 	   
 	  // RemoteWebDriver driver=new RemoteWebDriver(new URL("http://172.31.10.239:4444/wd/hub"),cap);
-	   RemoteWebDriver driver=new RemoteWebDriver(new URL("http://65.0.176.142:4444/wd/hub"),cap);
+	   RemoteWebDriver driver=new RemoteWebDriver(new URL("http://65.0.127.104:4444/wd/hub"),cap);
 	   System.out.println("Remote webdriver is started in firefox");
 			   
 	  // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
